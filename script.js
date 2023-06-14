@@ -8,5 +8,7 @@ document.getElementById('submit').addEventListener('click', () => {
     row.insertCell(1).innerHTML = document.getElementById('eventDate').value;
     row.insertCell(2).innerHTML = document.getElementById('location').value;
     document.getElementById('eventName').value = '';
+    document.getElementById('eventDate').value = '';
+    document.getElementById('location').value = '';
 });
 
