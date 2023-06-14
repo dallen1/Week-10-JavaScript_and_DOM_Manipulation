@@ -10,7 +10,36 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 
 </head>
-<body>
+<body class ="container-fluid">    
+    <div class="row">
+        <div class="col-lg"></div>
+        <div class="col-lg">
+            <form>
+                <div class="form-group">
+                    <label for="eventName">Event Name</label>
+                    <input type="text" class="form-control" id="eventName">
+                </div>
+                <div class="form-group">
+                    <label for="eventDate">Event Date</label>
+                    <input type="text" class="form-control" id="eventDate">
+                </div>
+                <div class="form-group">
+                    <label for="location">Location</label>
+                    <input type="text" class="form-control" id="location">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            <br/>
+            <table class="table table-dark table-hover">
+            <tr>
+                <th>Name</th>
+                <th>Date</th>
+                <th>Location</th>
+            </tr>
+        </table>
+    </div>
+    <div class="col-lg"></div>
+</div>
     
-</body>
+    </body>
 </html>
